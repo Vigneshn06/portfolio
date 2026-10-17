@@ -132,14 +132,14 @@ git commit -m "feat: initial portfolio"
 git branch -M main
 
 # Create a new empty repo on GitHub first, then:
-git remote add origin https://github.com/<your-username>/vignesh-portfolio.git
+git remote add origin https://github.com/<your-username>/portfolio.git
 git push -u origin main
 ```
 
 Or with the `gh` CLI (one-liner):
 
 ```bash
-gh repo create vignesh-portfolio --public --source=. --remote=origin --push
+gh repo create portfolio --public --source=. --remote=origin --push
 ```
 
 ## Other hosting options
